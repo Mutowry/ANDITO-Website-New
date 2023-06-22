@@ -113,6 +113,13 @@ header {
   height: 100vh;
 }
 
+.section-4 {
+  background-image: url("/imgs/contact\ us\ bg\ picture.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .section-navbar {
   background-color: rgba(123, 59, 42, 0.8); /* Update the background color with desired opacity */
   padding: 10px;
@@ -129,6 +136,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: row;
 }
 
 .mini-heading {
@@ -152,4 +160,38 @@ header {
   text-align: center;
 }
 
+ h3 {
+  font-size: 20px;
+  color: #CD4C0E;
+  text-align: center;
+}
 
+.element1 {
+  background-color: rgba(39, 40, 41, 0.7);
+  text-align: center;
+  color: #fff;
+  margin-top: 150px;
+}
+
+.element2 {
+  background-color: rgba(39, 40, 41, 0.7);
+  text-align: center;
+  color: #fff;
+  margin-top: 80px;
+}
+
+.paragraph-style{
+  color: #D7914B;
+}
+
+.element {
+  background-color: rgba(39, 40, 41, 0.7);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.sites {
+  background-color: rgba(39, 40, 41, 0.7);
+  display: flex;
+  flex-direction: column;
+}
