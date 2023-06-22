@@ -22,7 +22,7 @@ header {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -32,7 +32,7 @@ header {
 
 .logo a {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 28px;
   text-decoration: none;
   color: #000;
 }
@@ -58,7 +58,7 @@ header {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -82,22 +82,10 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-
-.section-2 {
-  background-image: url("/imgs/section2_bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.section-3 {
-  background-image: url("/imgs/section3_bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
 
 .section-2 {
   background-image: url("/imgs/bg\ 1.png");
@@ -111,6 +99,21 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.section3-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section3-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section3-container1 {
+  width: 40%;
 }
 
 .section-4 {
@@ -135,7 +138,6 @@ header {
 .flex-container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-direction: row;
 }
 
@@ -275,5 +277,39 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.layer1 {
+  display: flex;
+  padding: 20px; /* Adjust the padding as needed */
+  justify-content:space-between;
+}
+
+.layer2 {
+  background-color: rgba(39, 40, 41, 0.7);
+  display: flex;
+  align-self: center;
+}
+
+h4 {
+  color: #CD4C0E;
+}
+
+.p1 {
+  color: #fff;
+}
+
+.p2 {
+  color: #CD4C0E;
+}
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+p {
+  color: #fff;
 }
 
