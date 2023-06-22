@@ -195,3 +195,83 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+.contact-form {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.contact-form h2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-form label {
+  color: #fff;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  width: 180%;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #C9823D;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  margin-bottom: 10px;
+}
+
+.address {
+  color: #fff;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+footer {
+  text-align: right;
+  margin-top: 30px;
+  color: #fff;
+  margin-top: 110px;
+}
+
+.section4-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
