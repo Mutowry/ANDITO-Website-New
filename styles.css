@@ -1,15 +1,55 @@
-/* styles.css */
+/*----------------UNIVERSAL STYLING---------------*/
 body {
   margin: 0;
   padding: 0;
   background-image: url("/imgs/african women playing chess.png");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative; /* Add this line */
-  z-index: 0; /* Add this line */
+  position: relative; 
+  z-index: 0; 
   height: 100vh;
 }
 
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.element {
+  background-color: rgba(39, 40, 41, 0.7);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.address {
+  color: #fff;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+h3 {
+  font-size: 20px;
+  color: #CD4C0E;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/* -----------HEADER & NAVBAR (Section1)----------------*/
 header {
   background-color: rgba(123, 59, 42, 0.8); /* Update the background color with desired opacity */
   padding: 10px;
@@ -57,25 +97,9 @@ header {
   color: #FDF8ED;
 }
 
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-}
-body {
-  margin: 0;
-  padding: 0;
-}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
 
-header {
-  background-color: rgba(123, 59, 42, 0.8); /* Update the background color with desired opacity */
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-}
+/*-------------------SECTION 1--------------*/
 
 .section-1 {
   background-image: url("/imgs/african_women_playing_chess.png");
@@ -87,6 +111,48 @@ header {
   justify-content: space-around;
 }
 
+.layer1 {
+  display: flex;
+  padding: 20px; /* Adjust the padding as needed */
+  justify-content:space-between;
+}
+
+.layer2 {
+  background-color: rgba(39, 40, 41, 0.7);
+  display: flex;
+  align-self: center;
+}
+
+.content2{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #CD4C0E;
+}
+
+.p1 {
+  color: #fff;
+}
+
+.p2 {
+  color: #CD4C0E;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------SECTION 2---------------------*/
 .section-2 {
   background-image: url("/imgs/bg\ 1.png");
   background-size: cover;
@@ -94,6 +160,49 @@ header {
   height: 100vh;
 }
 
+.section-navbar {
+  background-color: rgba(123, 59, 42, 0.8); /* Update the background color with desired opacity */
+  padding: 10px;
+  text-align: center;
+}
+
+.section-heading {
+  color: #FFF;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.mini-heading {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.element1 {
+  background-color: rgba(39, 40, 41, 0.7);
+  text-align: center;
+  color: #fff;
+  margin-top: 150px;
+}
+
+.element2 {
+  background-color: rgba(39, 40, 41, 0.7);
+  text-align: center;
+  color: #fff;
+  margin-top: 80px;
+}
+
+.paragraph-style{
+  color: #D7914B;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+/*----------------SECTION 3---------------*/
 .section-3 {
   background-image: url("/imgs/african\ tech\ exposure.png");
   background-size: cover;
@@ -116,6 +225,15 @@ header {
   width: 40%;
 }
 
+.sites {
+  background-color: rgba(39, 40, 41, 0.7);
+  display: flex;
+  flex-direction: column;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------SECTION 4---------------*/
 .section-4 {
   background-image: url("/imgs/contact\ us\ bg\ picture.png");
   background-size: cover;
@@ -123,28 +241,10 @@ header {
   height: 100vh;
 }
 
-.section-navbar {
-  background-color: rgba(123, 59, 42, 0.8); /* Update the background color with desired opacity */
-  padding: 10px;
-  text-align: center;
-}
-
-.section-heading {
-  color: #FFF;
-}
-
-/* Add this code to your styles.css file */
-
-.flex-container {
+.section4-elements {
   display: flex;
-  justify-content: space-around;
   flex-direction: row;
-}
-
-.mini-heading {
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
+  justify-content: space-between;
 }
 
 .about-us {
@@ -162,48 +262,14 @@ header {
   text-align: center;
 }
 
- h3 {
-  font-size: 20px;
-  color: #CD4C0E;
-  text-align: center;
-}
-
-.element1 {
-  background-color: rgba(39, 40, 41, 0.7);
-  text-align: center;
-  color: #fff;
-  margin-top: 150px;
-}
-
-.element2 {
-  background-color: rgba(39, 40, 41, 0.7);
-  text-align: center;
-  color: #fff;
-  margin-top: 80px;
-}
-
-.paragraph-style{
-  color: #D7914B;
-}
-
-.element {
-  background-color: rgba(39, 40, 41, 0.7);
-  text-align: center;
-  border-radius: 10px;
-}
-
-.sites {
-  background-color: rgba(39, 40, 41, 0.7);
-  display: flex;
-  flex-direction: column;
-}
-
 .contact-form {
-  padding: 20px;
+  padding-left: 80px;
+  padding-top: 40px;
   border-radius: 10px;
   margin-top: 30px;
   text-align: left;
 }
+
 
 .contact-form h2 {
   color: #fff;
@@ -226,7 +292,7 @@ header {
   border-radius: 10px;
   padding: 5px;
   border: none;
-  width: 180%;
+  width: 140%;
 }
 
 .contact-form textarea {
@@ -235,35 +301,20 @@ header {
 
 .contact-form button[type="submit"] {
   background-color: #C9823D;
-  color: #fff;
+  color: #003142;
+  font-weight: bolder;
+  font-size: large;
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer;
+  margin-left: 150px;
 }
 
-.contact-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: 50px;
-  justify-content: space-around;
-}
-
-.buttons {
-  display: flex;
-  flex-direction: column;
-}
-
-.buttons button {
-  margin-bottom: 10px;
-}
-
-.address {
-  color: #fff;
-  margin-left: 20px;
-  white-space: nowrap;
+.drop-message {
+  color: #003142;
+  font-weight: bolder;
+  font-size: larger;
 }
 
 footer {
@@ -273,43 +324,7 @@ footer {
   margin-top: 110px;
 }
 
-.section4-elements {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
 
-.layer1 {
-  display: flex;
-  padding: 20px; /* Adjust the padding as needed */
-  justify-content:space-between;
-}
 
-.layer2 {
-  background-color: rgba(39, 40, 41, 0.7);
-  display: flex;
-  align-self: center;
-}
-
-h4 {
-  color: #CD4C0E;
-}
-
-.p1 {
-  color: #fff;
-}
-
-.p2 {
-  color: #CD4C0E;
-}
-
-.content2{
-  display: flex;
-  flex-direction: column;
-  
-}
-
-p {
-  color: #fff;
-}
 
