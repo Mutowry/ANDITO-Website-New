@@ -43,23 +43,17 @@ p {
 
 /* -----------HEADER & NAVBAR (Section1)----------------*/
 header {
-  background-color: rgba(123, 59, 42, 0.8); /* Update the background color with desired opacity */
+  background-color: rgba(123, 59, 42, 0.8);
   padding: 10px;
-  position: absolute;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 999;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  margin-right: 20px;
 }
 
 .logo a {
@@ -86,8 +80,16 @@ header {
 
 .nav-links li a {
   text-decoration: none;
-  color: #FDF8ED;
+  color: #fff;
 }
+
+.nav-links li a:hover {
+  color: #CD4C0E;
+}
+
+.header-logo {
+  visibility: hidden;
+} 
 
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 
@@ -551,4 +553,130 @@ h4 {
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 
 
+/*-------MOBILE VERSION--------*/
 
+@media (max-width: 767px) {
+
+  /* Shift and scale the navbar vertically */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; /* Adjust the width as needed */
+    padding: 10px;
+    background-color:  rgba(123, 59, 42, 0.8);/* Optional: Add a background color */
+    z-index: 9999; /* Optional: Adjust the z-index as needed */
+  }
+    
+  .navbar .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .navbar .nav-links li {
+    padding: 10px;
+  }
+  
+  .section-1 {
+    position: relative;
+    padding-right: 120px; /* Adjust the value to accommodate the width of the navbar */
+  }
+
+  .logo {
+    display: none;
+  }
+
+  header{
+    background: none;
+  }
+
+  .header-logo a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .header-logo {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .section-1 {
+    position: relative;
+    padding-right: 120px; /* Adjust the value to accommodate the width of the navbar */
+  }
+  
+  
+  .organizational-andito {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 28px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .layer1 {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .layer2 {
+    padding: 10px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .address-section1 {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .contact-btns-section1 {
+    margin-right: 0;
+  }
+
+  .container1,
+  .container2,
+  .container3 {
+    margin-top: 50px;
+  }
+
+  .carousel {
+    width: 80%;
+    height: auto;
+  }
+
+  .swiper {
+    width: 100%; /* Adjust the width as needed */
+  }
+
+  .address-section1,
+  .contact-btns-section1 {
+    display: none; /* Hide the address and contact buttons */
+  }
+}
