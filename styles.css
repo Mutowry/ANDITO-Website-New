@@ -557,7 +557,8 @@ h4 {
 
 @media (max-width: 767px) {
 
-  /* Shift and scale the navbar vertically */
+  /*---------------------------SECTION 1 -------------------------------*/
+
   .navbar {
     display: flex;
     flex-direction: column;
@@ -702,4 +703,35 @@ h4 {
   .content2 {
     display: none;
   }
+
+  /*---------------------------SECTION 2 -------------------------------*/
+
+  .flex-container {
+    display: flex;
+    justify-content: left;
+    margin-top: -150px;
+  }
+  
+  .container1, .container3 {
+    display: none;
+  }
+
+  .element1 {
+    background: #E4B269;
+    color: #000;
+  }
+
+  .element1 p{
+    background: #E4B269;
+    color: #000;
+  }
+
+  .element2 {
+    display: none;
+  }
+
+  .element1-heading {
+    display: none;
+  }
+
 }
