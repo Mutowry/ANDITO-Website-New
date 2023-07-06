@@ -561,7 +561,7 @@ h4 {
   .navbar {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-end;
     position: absolute;
     top: 0;
@@ -586,11 +586,6 @@ h4 {
     padding: 10px;
   }
   
-  .section-1 {
-    position: relative;
-    padding-right: 120px; /* Adjust the value to accommodate the width of the navbar */
-  }
-
   .logo {
     display: none;
   }
@@ -621,9 +616,33 @@ h4 {
   .section-1 {
     position: relative;
     padding-right: 120px; /* Adjust the value to accommodate the width of the navbar */
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .content1 .p1 {
+    margin-bottom: 180px; /* Adjust the value as needed */
   }
   
-  
+  .p1 {
+    text-align: center;
+    width: 260px;
+    color: #E4B269;
+  }
+
+  .p2, .p3 {
+    color: #000;
+    text-align: left;
+  }
+
+  .layer2 {
+    background: none;
+  }
+
+  .content1 h4 {
+    display: none;
+  };
+    
   .organizational-andito {
     position: absolute;
     top: 0;
@@ -678,5 +697,9 @@ h4 {
   .address-section1,
   .contact-btns-section1 {
     display: none; /* Hide the address and contact buttons */
+  }
+
+  .content2 {
+    display: none;
   }
 }
