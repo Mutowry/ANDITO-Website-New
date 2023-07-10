@@ -367,6 +367,13 @@ h4 {
   transform: scale(0.94);
 }
 
+.joystick-mb, .carousel-mb {
+  visibility: hidden;
+}
+
+.address-section2-mb {
+  visibility: hidden;
+} 
 
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -564,12 +571,13 @@ h4 {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
+    text-align: left;
     position: absolute;
     top: 0;
     right: 0;
-    width: 100px; /* Adjust the width as needed */
+    width: 80px; /* Adjust the width as needed */
     padding: 10px;
-    background-color:  rgba(123, 59, 42, 0.8);/* Optional: Add a background color */
+    background:  rgba(27, 28, 29, 0.8);/* Optional: Add a background color */
     z-index: 9999; /* Optional: Adjust the z-index as needed */
   }
     
@@ -629,11 +637,15 @@ h4 {
     text-align: center;
     width: 260px;
     color: #E4B269;
+    background:  rgba(27, 28, 29, 0.8);
   }
 
   .p2, .p3 {
     color: #000;
+  }
+  .p2-p3 {
     text-align: left;
+    background: rgba(171, 66, 15, 0.5);
   }
 
   .layer2 {
@@ -687,7 +699,7 @@ h4 {
   }
 
   .carousel {
-    width: 80%;
+    width: 60%;
     height: auto;
   }
 
@@ -733,5 +745,22 @@ h4 {
   .element1-heading {
     display: none;
   }
+
+  .joystick-mb {
+    visibility: visible;
+  }
+
+  .carousel-mb {
+    visibility: visible;
+  }
+
+  .address-section2-mb {
+    visibility: visible;
+  }
+
+/*--------------------------SECTION 3------------------------------*/
+
+
+/*--------------------------SECTION 4------------------------------*/
 
 }
