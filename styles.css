@@ -45,7 +45,6 @@ p {
 header {
   background-color: rgba(123, 59, 42, 0.8);
   padding: 10px;
-  position: sticky;
   top: 0;
   z-index: 999;
 }
@@ -96,10 +95,7 @@ header {
 /*-------------------SECTION 1--------------*/
 
 .section-1 {
-  background-image: url("./imgs/african_women_playing_chess.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -638,8 +634,8 @@ h4 {
     display: flex;
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 40%;
+    
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -647,8 +643,6 @@ h4 {
   }
 
   .section-1 {
-    position: relative;
-    padding-right: 120px; /* Adjust the value to accommodate the width of the navbar */
     display: flex;
     flex-direction: column-reverse;
   }
@@ -680,18 +674,7 @@ h4 {
     display: none;
   };
     
-  .organizational-andito {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-weight: bold;
-    font-size: 28px;
-    color: #000;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
+ 
 
   .layer1 {
     padding: 10px;
